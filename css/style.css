@@ -1,0 +1,239 @@
+#todo {
+	display: block;
+	width: 80%;
+	min-height: 350px;
+	background: white;
+	box-shadow: 0px 0px 20px rgb(180, 180, 180);
+	margin: auto;
+	margin-top: 50px;
+}
+
+@media only screen and (max-width: 750px) {
+#todo {
+	width: 90%;
+	margin-top: 30px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+#todo {
+	width: 95%;
+	margin-top: 20px;
+	box-shadow: 0px 0px 5px grey;
+}
+}
+
+#todo .head {
+	display: block;
+	height: 60px;
+	background: rgb(247, 247, 247);
+}
+
+#todo .head .date {
+	display: inline-block;
+	padding-top: 19px;
+}
+
+#todo .head .date .icon {
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 10px;
+}
+
+#todo .head .date form {
+	display: inline-block;
+}
+
+#todo .head .date form input {
+	background: transparent;
+	box-shadow: none;
+	padding: 0;
+}
+
+#todo .head .create {
+	display: inline-block;
+	float: right;
+	padding-right: 20px;
+	padding-top: 9px;
+}
+
+#todo .head .create input {
+	display: inline-block;
+	box-shadow: 0px 0px 1px grey;
+}
+
+#todo .head .create button {
+	display: inline-block;
+	float: right;
+	box-shadow: 0px 0px 2px grey;
+}
+
+@media only screen and (max-width: 800px) {
+#todo .head .date {
+	padding-top: 21px;
+}
+
+#todo .head .create {
+	padding-top: 11px;
+}
+}
+
+@media only screen and (max-width: 600px) {
+#todo .head .date .icon {
+	padding-left: 10px;
+}
+
+#todo .head .create {
+	padding-right: 10px;
+}
+
+#todo .head .create .text {
+	display: none;
+}
+}
+
+@media only screen and (max-width: 500px) {
+#todo .head .create input {
+	width: 120px;
+}
+}
+
+@media only screen and (max-width: 420px) {
+#todo .head {
+	height: auto;
+	overflow: show;
+	padding-bottom: 10px;
+}
+
+#todo .head .date {
+	display: block;
+	text-align: center;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+#todo .head .create {
+	display: block;
+	float: none;
+	text-align: center;
+}
+
+#todo .head .create input {
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#todo .head .create button {
+	float: none;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+}
+
+
+#copyright {
+	padding-bottom: 40px;
+	padding-top: 40px;
+}
+
+#copyright p {
+	font-size: 12pt;
+	text-align: center;
+}
+
+#copyright p a {
+	font-size: 12pt;
+}
+
+@media only screen and (max-width: 600px) {
+#copyright {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+}
+
+#list {
+	display: block;
+}
+
+#list .item {
+	display: block;
+	height: 50px;
+	overflow: hidden;
+	transition: all 0.2s ease-in-out;
+}
+
+#list .todo_done .task {
+	text-decoration: line-through;
+}
+
+#list .item:hover {
+	background: rgb(244, 244, 244);
+	box-shadow: 0px 0px 1px black;
+}
+
+#list .item .done {
+	display: inline-block;
+	vertical-align: top;
+	margin-left: 20px;
+	margin-top: 19px;
+	box-shadow: none;
+}
+
+#list .item .task {
+	display: inline-block;
+	vertical-align: top;
+	margin-top: 14px;
+	margin-left: 10px;
+}
+
+#list .item .remove {
+	display: inline-block;
+	vertical-align: top;
+	float: right;
+	margin-right: 20px;
+	font-size: 25pt;
+	margin-top: 5px;
+}
+
+#list .item .remove:hover {
+	color: red;
+}
+
+#list .loading {
+	display: block;
+	text-align: center;
+	padding-top: 115px;
+	padding-bottom: 130px;
+	background: rgb(250, 250, 250);
+}
+
+#list .loading img {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#list .loading p {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#container .todo_done .task {
+	text-decoration: line-through;
+}
+
+@media only screen and (max-width: 1000px) {
+#list .item .done {
+	margin-top: 20px;
+}
+
+#list .item .task {
+	margin-top: 15px;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+#list .item .task {
+	margin-top: 17px;
+}
+}

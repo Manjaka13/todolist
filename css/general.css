@@ -1,0 +1,303 @@
+body,
+#root h1, #root h2, #root h3, #root h4, #root h5, #root h6,
+#root p, #root button, #root a,
+#root ul, #root li,
+#root form {
+	padding: 0;
+	margin: 0;
+}
+
+#root a, #root button, #root input, #root select, #root textarea {
+	transition: all 0.2s ease-in-out;
+}
+
+#root ul {
+	list-style-type: none;
+}
+
+#root input,
+#root button {
+	border: none;
+}
+
+body {
+	background: rgb(245, 245, 245);
+	font-family: sans-serif;
+}
+
+#root p, #root h1, #root h2, #root h3, #root h4, #root h6, #root li, #root label {
+	pointer-events: none;
+	color: rgb(80, 80, 80);
+}
+
+#root label {
+	pointer-events: auto;
+}
+
+#root a {
+	pointer-events: auto;
+	text-decoration: none;
+	color: rgb(170, 170, 170);
+}
+
+#root a:hover {
+	color: black;
+	text-decoration: none;
+}
+
+#root h1, #root h2, #root h3, #root h4, #root h5, #root h6, #root th {
+	color: rgb(80, 80, 80);
+	color: rgb(59, 67, 81);
+	text-align: center;
+}
+
+#root p {
+	color: rgb(120, 120, 120);
+	text-align: justify;
+}
+
+#root td {
+	color: rgb(120, 120, 120);
+	text-align: left;
+}
+
+#root button,
+#root input[type='submit'] {
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: rgb(100, 100, 100);
+	color: white;
+	box-shadow: none;
+	pointer-events: auto;
+}
+
+#root button:hover,
+#root input[type='submit']:hover {
+	background: black;
+	box-shadow: 0px 0px 10px grey;
+	text-shadow: 0px 1px 2px black;
+}
+
+#root input,
+#root textarea,
+#root select {
+	display: block;
+	padding: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+	background: rgb(240, 240, 240);
+	color: black;
+	box-shadow: 0px 0px 2px black;
+	border: none;
+}
+
+#root input[type='color'],
+#root input[type='date'],
+#root input[type='radio'] {
+	display: inline-block;
+}
+
+#root input:hover,
+#root textarea:hover,
+#root select:hover {
+	box-shadow: 0px 0px 10px grey;
+}
+
+#root input[type='range']:hover {
+	box-shadow: 0px 0px 2px black;
+}
+
+#root input[type='range']:focus {
+	box-shadow: 0px 0px 2px black;
+}
+
+#root input:focus,
+#root textarea:focus,
+#root select:focus {
+	box-shadow: 0px 0px 4px black;
+}
+
+#root textarea {
+	resize: none;
+	font-family: sans-serif;
+}
+
+#root h1 {
+	font-size: 40pt;
+}
+
+#root h2 {
+	font-size: 34pt;
+}
+
+#root h3 {
+	font-size: 28pt;
+}
+
+#root h4 {
+	font-size: 24pt;
+}
+
+#root h5 {
+	font-size: 22pt;
+}
+
+#root h6 {
+	font-size: 20pt;
+}
+
+#root p, #root button, #root a, #root li, #root select, #root input, #root textarea, #root label, #root th, #root td {
+	font-size: 17pt;
+}
+
+@media only screen and (max-width: 1800px) {
+#root h1 {
+	font-size: 36pt;
+}
+
+#root h2 {
+	font-size: 30pt;
+}
+
+#root h3 {
+	font-size: 24pt;
+}
+
+#root h4 {
+	font-size: 20pt;
+}
+
+#root h5 {
+	font-size: 18pt;
+}
+
+#root h6 {
+	font-size: 14pt;
+}
+
+#root p, #root button, #root a, #root li, #root select, #root input, #root textarea, #root label, #root th, #root td {
+	font-size: 15pt;
+}
+}
+
+@media only screen and (max-width: 1400px) {
+#root h1 {
+	font-size: 34pt;
+}
+
+#root h2 {
+	font-size: 28pt;
+}
+
+#root h3 {
+	font-size: 22pt;
+}
+
+#root h4 {
+	font-size: 18pt;
+}
+
+#root h5 {
+	font-size: 16pt;
+}
+
+#root h6 {
+	font-size: 12pt;
+}
+
+#root p, #root button, #root a, #root li, #root select, #root input, #root textarea, #root label, #root th, #root td {
+	font-size: 14pt;
+}
+}
+
+@media only screen and (max-width: 1000px) {
+#root h1 {
+	font-size: 30pt;
+}
+
+#root h2 {
+	font-size: 24pt;
+}
+
+#root h3 {
+	font-size: 20pt;
+}
+
+#root h4 {
+	font-size: 16pt;
+}
+
+#root h5 {
+	font-size: 14pt;
+}
+
+#root h6 {
+	font-size: 11pt;
+}
+
+#root p, #root button, #root a, #root li, #root select, #root input, #root textarea, #root label, #root th, #root td {
+	font-size: 13pt;
+}
+}
+
+@media only screen and (max-width: 800px) {
+#root h1 {
+	font-size: 28pt;
+}
+
+#root h2 {
+	font-size: 22pt;
+}
+
+#root h3 {
+	font-size: 19pt;
+}
+
+#root h4 {
+	font-size: 15pt;
+}
+
+#root h5 {
+	font-size: 13pt;
+}
+
+#root h6 {
+	font-size: 11pt;
+}
+
+#root p, #root button, #root a, #root li, #root select, #root input, #root textarea, #root label, #root th, #root td {
+	font-size: 12pt;
+}
+}
+
+@media only screen and (max-width: 600px) {
+#root h1 {
+	font-size: 22pt;
+}
+
+#root h2 {
+	font-size: 19pt;
+}
+
+#root h3 {
+	font-size: 16pt;
+}
+
+#root h4 {
+	font-size: 14pt;
+}
+
+#root h5 {
+	font-size: 13pt;
+}
+
+#root h6 {
+	font-size: 11pt;
+}
+
+#root p, #root button, #root a, #root li, #root select, #root input, #root textarea, #root label, #root th, #root td {
+	font-size: 11pt;
+}
+}
+
